@@ -7,12 +7,12 @@
 
 const axios = require("axios");
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://localhost:3002";
 
 // ─── CHANGE THESE ─────────────────────────────────────────────
 const TEST_REEL_URL = "https://www.instagram.com/reel/YOUR_REEL_ID_HERE/";
 const SESSION_ID    = "YOUR_SESSION_ID_HERE";
-const CSRF_TOKEN    = "YOUR_CSRF_TOKEN_HERE";   // From cookies
+const CSRF_TOKEN    = "YOUR_CSRF_TOKEN_HERE";  
 // ──────────────────────────────────────────────────────────────
 
 async function testHealthCheck() {
